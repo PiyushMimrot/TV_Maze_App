@@ -20,7 +20,8 @@ function App() {
   return (
     <div className="App">
       <div className='Home'>
-         <img className='image' src={"./tvm-header-logo.png"} alt={"image"} /><br /> 
+
+    <img className='image' src="./tvm-header-logo.png" alt="image" /><br />
         <input type="radio" onChange={() => ShowTheShow()} id="show" name="maze" value="Shows" />
         <label for="show">Shows</label>
         <input type="radio" onChange={() => ShowTheActor()} id="actor" name="maze" value="Actors" />
