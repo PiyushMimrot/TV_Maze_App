@@ -25,8 +25,8 @@ export default function ActorResults(props) {
                         </div>
                         <div>
                             {element.person.image ? (<img src={element.person.image.medium} alt={element.person.name} />
-                            ) : (<div className="missing-img-div"><img src="" alt="" /><h1 style={{ color: "black" }}>no photo available</h1></div>)}
-                            <a className="url" href={element.person.url} >See more</a>
+                            ) : (<div className="missing-img-div"><img src="" alt="" /></div>)}
+                            <a className="url" href={element.person.url} >More details</a>
                            
                         </div>
 

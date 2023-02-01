@@ -22,25 +22,19 @@ export default function Show() {
   useEffect(() => {
     if (isSubmitted && state.person.length > 0) {
       fetch(`https://api.tvmaze.com/search/people?q=${state.person}`)
-        .then((response) => {
-          if (response.ok) {
-            console.log("reponse ok", response.ok);
-            return response.json();
-          } else {
-            console.log("response status", response.status);
-            throw new Error(response.status);
-          }
-        })
+        .then((response) =>    
+           response.json()         
+        )
         .then((json) => {
-          console.log(json);
+ 
           setError(null);
           setData(json);
         })
         .catch((error) => {
-          console.error(error);
+        
           setError(error);
         });
-      setState({ person: "" });
+      // setState({ person: "" });
     }
     console.log("isSubmitted", isSubmitted);
   }, [isSubmitted, state.person]);

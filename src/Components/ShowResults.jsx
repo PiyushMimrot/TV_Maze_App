@@ -25,8 +25,8 @@ export default function ShowResults(props) {
                     </div>
                     <div>
                     {element.show.image ? (<img src={element.show.image.medium} alt={element.show.name} />
-                    ) : (<div className="missing-img-div"><img src="" alt = ""/><h1 style={{color:"black"}}>no photo available</h1></div>)}
-                     <a className="url" href={element.show.url} >See more</a>
+                    ) : (<div className="missing-img-div"><img src="" alt = ""/></div>)}
+                     <a className="url" href={element.show.url} >More details</a>
                     {/* <a href={element.show.url}>See more</a> */}
                     </div>
                   

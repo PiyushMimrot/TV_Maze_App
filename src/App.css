@@ -2,13 +2,15 @@
   text-align: center;
 
 }
+
 .Home{
-  font-size: 20px;
-  color: bisque;
+font-size: 20px;
+color: bisque;
 margin: 10px;
 padding: 20px;
 text-align: center;
-  background-color: rgb(247, 4, 4);
+background-color: rgb(14, 45, 92);
+  /* background-color: red; */
 }
 .Home h1{
   margin: 5px;
@@ -48,29 +50,36 @@ text-align: center;
 }
 
 .list-item {
-  background-color: rgb(238, 123, 123);
+  background-color: rgb(12, 55, 104);
   list-style: none;
   border: 1px solid black;
-  padding: 30px;
+  padding: 20px;
   margin: 20px 25px;
   max-width: 210px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .url{
   margin-top: 10px;
   text-decoration: none;
-  width: 50px;
-  color: black;
-  background-color: rgb(109, 223, 57);
+  width: 100px;
+  color:antiquewhite;
+  background-color: rgb(22, 49, 9);
   border: 1px solid black;
-  border-radius: 5px ;
+  border-radius: 2px ;
+  padding: 0;
 
+}
+.missing-img-div 
+ img {
+  height: 295px;
+  background-color: white;
+  
 }
 
 .link-container {
@@ -84,9 +93,9 @@ text-align: center;
   width: 210px;
   height: 295px;
   font-style: italic;
-  color: rgb(150, 144, 144);
+  color: rgb(16, 15, 19);
   text-align: center;
-  border: 0.5px solid rgb(219, 218, 218);
+  border: 0.5px solid rgb(63, 92, 70);
 }
 
 .no-results-search {
